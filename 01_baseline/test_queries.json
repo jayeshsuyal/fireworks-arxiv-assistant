@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "query": "What are the latest advances in transformer architectures for NLP?",
+    "expected_keywords": ["transformer", "attention", "NLP", "architecture"],
+    "category": "architecture"
+  },
+  {
+    "id": 2,
+    "query": "How do large language models handle context windows?",
+    "expected_keywords": ["context", "window", "LLM", "length"],
+    "category": "technical"
+  },
+  {
+    "id": 3,
+    "query": "What are the main challenges in reinforcement learning from human feedback?",
+    "expected_keywords": ["RLHF", "reinforcement", "feedback", "challenges"],
+    "category": "methodology"
+  },
+  {
+    "id": 4,
+    "query": "Explain the differences between supervised and unsupervised learning in AI.",
+    "expected_keywords": ["supervised", "unsupervised", "learning", "difference"],
+    "category": "fundamentals"
+  },
+  {
+    "id": 5,
+    "query": "What are retrieval-augmented generation systems and how do they work?",
+    "expected_keywords": ["RAG", "retrieval", "generation", "vector"],
+    "category": "architecture"
+  },
+  {
+    "id": 6,
+    "query": "How do researchers evaluate the performance of machine learning models?",
+    "expected_keywords": ["evaluation", "metrics", "performance", "accuracy"],
+    "category": "evaluation"
+  },
+  {
+    "id": 7,
+    "query": "What techniques are used for fine-tuning large language models?",
+    "expected_keywords": ["fine-tuning", "LoRA", "training", "adaptation"],
+    "category": "methodology"
+  },
+  {
+    "id": 8,
+    "query": "Describe recent progress in computer vision and image recognition.",
+    "expected_keywords": ["vision", "image", "CNN", "recognition"],
+    "category": "domain"
+  },
+  {
+    "id": 9,
+    "query": "What are the ethical considerations in AI research?",
+    "expected_keywords": ["ethics", "bias", "fairness", "AI"],
+    "category": "ethics"
+  },
+  {
+    "id": 10,
+    "query": "How do attention mechanisms work in neural networks?",
+    "expected_keywords": ["attention", "mechanism", "neural", "weights"],
+    "category": "technical"
+  },
+  {
+    "id": 11,
+    "query": "What are the current approaches to multi-modal learning?",
+    "expected_keywords": ["multimodal", "vision", "language", "fusion"],
+    "category": "architecture"
+  },
+  {
+    "id": 12,
+    "query": "Explain the concept of transfer learning in machine learning.",
+    "expected_keywords": ["transfer", "learning", "pretrain", "domain"],
+    "category": "fundamentals"
+  },
+  {
+    "id": 13,
+    "query": "What are the main bottlenecks in training large neural networks?",
+    "expected_keywords": ["training", "compute", "memory", "bottleneck"],
+    "category": "infrastructure"
+  },
+  {
+    "id": 14,
+    "query": "How do researchers address overfitting in deep learning models?",
+    "expected_keywords": ["overfitting", "regularization", "dropout", "validation"],
+    "category": "methodology"
+  },
+  {
+    "id": 15,
+    "query": "What are the latest developments in neural architecture search?",
+    "expected_keywords": ["NAS", "architecture", "search", "automated"],
+    "category": "automation"
+  },
+  {
+    "id": 16,
+    "query": "How do embedding models represent semantic meaning?",
+    "expected_keywords": ["embedding", "semantic", "vector", "representation"],
+    "category": "technical"
+  },
+  {
+    "id": 17,
+    "query": "What role does data augmentation play in model training?",
+    "expected_keywords": ["augmentation", "data", "training", "synthetic"],
+    "category": "methodology"
+  },
+  {
+    "id": 18,
+    "query": "Describe the challenges in deploying AI models to production.",
+    "expected_keywords": ["deployment", "production", "inference", "latency"],
+    "category": "engineering"
+  },
+  {
+    "id": 19,
+    "query": "What are the current methods for model compression and quantization?",
+    "expected_keywords": ["compression", "quantization", "pruning", "efficiency"],
+    "category": "optimization"
+  },
+  {
+    "id": 20,
+    "query": "How do researchers measure and improve model interpretability?",
+    "expected_keywords": ["interpretability", "explainability", "SHAP", "attention"],
+    "category": "explainability"
+  }
+]

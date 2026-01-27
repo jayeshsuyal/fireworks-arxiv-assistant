@@ -1,0 +1,20 @@
+# Core dependencies
+arxiv>=2.0.0
+pinecone-client>=3.0.0
+python-dotenv>=1.0.0
+
+# AI/ML APIs
+openai>=1.0.0  # For embeddings if not using Fireworks
+fireworks-ai>=0.9.0
+
+# Data processing
+tqdm>=4.65.0
+tenacity>=8.2.0  # Retry logic
+numpy>=1.24.0
+pandas>=2.0.0
+
+# Utilities
+requests>=2.31.0
+
+# Visualization
+matplotlib>=3.7.0
