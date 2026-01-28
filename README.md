@@ -1,6 +1,6 @@
 # Fireworks arXiv Research Assistant
 
-> **📊 [Read the GTM Strategy & Product Analysis →](gtm_notes.md)**
+> **📊 GTM Strategy: [Quick Read (90 sec)](gtm_quick.md) | [Full Analysis](gtm_notes.md)**
 
 **A complete demonstration of fine-tuning progression: Baseline → SFT → RFT**
 

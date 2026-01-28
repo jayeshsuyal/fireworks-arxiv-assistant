@@ -1,5 +1,7 @@
 # Go-to-Market Strategy & Product Analysis
 
+> **⏱️ Short on time? Read the [1-page version (90 seconds) →](gtm_quick.md)**
+
 ## TL;DR (30-Second Scan)
 
 **Problem:** 15k new research papers/month → VCs, R&D teams, researchers can't track what matters
