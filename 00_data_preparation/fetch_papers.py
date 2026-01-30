@@ -37,7 +37,7 @@ class ArxivPaper:
     authors: List[str]
     summary: str
     categories: List[str]
-    published: srt
+    published: str
     pdf_url: str
 
     @classmethod
