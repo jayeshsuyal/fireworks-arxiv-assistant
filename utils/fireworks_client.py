@@ -31,7 +31,7 @@ class FireworksClient:
         self,
         api_key: Optional[str] = None,
         base_url: str = "https://api.fireworks.ai/inference/v1",
-        default_model: str = "accounts/fireworks/models/llama-v3p1-8b-instruct",
+        default_model: str = "accounts/fireworks/models/llama-v3p3-70b-instruct",
         rate_limit_delay: float = 0.5
     ):
         """
@@ -315,5 +315,5 @@ def get_client(model: Optional[str] = None) -> FireworksClient:
         FireworksClient instance
     """
     return FireworksClient(
-        default_model=model or "accounts/fireworks/models/llama-v3p1-8b-instruct"
+        default_model=model or "accounts/fireworks/models/llama-v3p3-70b-instruct"
     )

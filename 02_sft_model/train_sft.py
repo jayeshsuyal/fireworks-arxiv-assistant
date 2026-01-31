@@ -61,7 +61,7 @@ def validate_training_data(filepath: Path) -> bool:
 
 def train_sft_model(
     training_file: Path,
-    base_model: str = "accounts/fireworks/models/llama-v3p1-8b-instruct",
+    base_model: str = "accounts/fireworks/models/llama-v3p3-70b-instruct",
     output_dir: Path = Path("data/models"),
     model_suffix: str = "arxiv-sft",
     n_epochs: int = 3,
@@ -216,7 +216,7 @@ def main():
     train_parser.add_argument(
         '--base-model',
         type=str,
-        default='accounts/fireworks/models/llama-v3p1-8b-instruct',
+        default='accounts/fireworks/models/llama-v3p3-70b-instruct',
         help='Base model to fine-tune'
     )
     train_parser.add_argument(

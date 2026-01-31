@@ -29,7 +29,7 @@ class BaselineRAG:
         fireworks_client: Optional[FireworksClient] = None,
         pinecone_client: Optional[PineconeClient] = None,
         embedding_model: str = "nomic-ai/nomic-embed-text-v1.5",
-        base_model: str = "accounts/fireworks/models/llama-v3p1-8b-instruct",
+        base_model: str = "accounts/fireworks/models/llama-v3p3-70b-instruct",
         top_k: int = 3,
         similarity_threshold: float = 0.7
     ):

@@ -62,7 +62,7 @@ class TrainingDataGenerator:
     def __init__(
         self,
         api_key: str,
-        model: str = "accounts/fireworks/models/llama-v3p1-70b-instruct",
+        model: str = "accounts/fireworks/models/llama-v3p3-70b-instruct",
         rate_limit_delay: float = 1.0,
         base_url: str = "https://api.fireworks.ai/inference/v1"
     ):
@@ -504,7 +504,7 @@ def main():
     parser.add_argument(
         '--model',
         type=str,
-        default="accounts/fireworks/models/llama-v3p1-70b-instruct",
+        default="accounts/fireworks/models/llama-v3p3-70b-instruct",
         help='Fireworks model to use for generation'
     )
     parser.add_argument(

@@ -155,7 +155,7 @@ python 00_data_preparation/fetch_papers.py --max-results 200
 **Use different base model:**
 ```bash
 python 02_sft_model/train_sft.py train \
-  --base-model "accounts/fireworks/models/llama-v3p1-70b-instruct"
+  --base-model "accounts/fireworks/models/llama-v3p3-70b-instruct"
 ```
 
 **Adjust training epochs:**

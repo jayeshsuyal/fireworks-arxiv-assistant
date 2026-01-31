@@ -169,7 +169,7 @@ def main():
     parser.add_argument(
         '--base-model',
         type=str,
-        default='accounts/fireworks/models/llama-v3p1-8b-instruct',
+        default='accounts/fireworks/models/llama-v3p3-70b-instruct',
         help='Base model to use'
     )
     parser.add_argument(
